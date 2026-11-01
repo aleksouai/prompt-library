@@ -4,7 +4,9 @@
   Porównanie promptu „na szybko” z promptem ustrukturyzowanym.
 
   ## Wersja 1
-  Napisz rekomendację dla zarządu, czy wdrożyć chatbota AI w obsłudze klienta.
+  ```
+Napisz rekomendację dla zarządu, czy wdrożyć chatbota AI w obsłudze klienta.
+```
 
   ## Wersja 2
   ```
