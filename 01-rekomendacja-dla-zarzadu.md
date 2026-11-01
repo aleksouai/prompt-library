@@ -7,7 +7,8 @@
   Napisz rekomendację dla zarządu, czy wdrożyć chatbota AI w obsłudze klienta.
 
   ## Wersja 2
-  <rola> 
+  ```
+<rola> 
 Jesteś doświadczonym konsultantem ds. transformacji cyfrowej, który przygotowuje materiały dla zarządów firm e-commerce. 
 </rola> <kontekst> 
 Firma: „Zielony Koszyk”, sklep internetowy ze zdrową żywnością, Polska. - 40 000 zamówień miesięcznie - Dział obsługi klienta: 8 osób - 35% zgłoszeń to pytania o status zamówienia, 20% o zwroty - Średni czas pierwszej odpowiedzi: 9 godzin - Zarząd obawia się utraty jakości obsługi i ryzyk prawnych (RODO) </kontekst> <zadanie> 
@@ -20,7 +21,7 @@ Przygotuj rekomendację: czy wdrożyć chatbota AI w obsłudze klienta.
 3. Zakres pilotażu: co, na jakich zgłoszeniach, ile trwa 
 4. KPI pilotażu: 3–4 wskaźniki z wartością docelową 
 5. Ryzyka: tabela (ryzyko | wpływ | jak ograniczyć) Maksymalnie 1 strona A4. </format>
-
+```
   ## Wyniki porównania
 | Kryterium | Wersja 1 | Wersja 2 |
 |---|---|---|
