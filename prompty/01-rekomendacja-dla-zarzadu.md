@@ -33,6 +33,7 @@ Przygotuj rekomendację: czy wdrożyć chatbota AI w obsłudze klienta.
 | Gotowość do użycia bez poprawek | 2 | 3 |
 
   ## Wnioski
-  - Wynik był taki, jaki narzuciłam AI, czyli w domniemaniu zasugerowanie, że wdrażamy chatbot oraz w jakim zakresie.
-  - Brakuje nadal konkretów - jest właściwie ładne podsumowanie zadania.
+  - Zadanie prawidłowo zrozumiane i użyte liczby są właściwe.
+  - Założenie oznaczone, ale brak wyjaśnienia z czego wynika założona kwota.
+  - Brakuje nadal konkretów - ale zadanie zostało wykonane zgodnie z opisem w prompcie.
   - Jasne warunki bez przestrzeni do interpretacji oraz jasne oczekiwania.
