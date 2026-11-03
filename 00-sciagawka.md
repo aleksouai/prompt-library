@@ -50,3 +50,8 @@ Pułapki:
 |---|---|
 | Tagi w prompcie zniknęły na GitHubie | Otocz prompt blokiem kodu (trzy backticki) |
 | Tabela skopiowana z czatu = zwykły tekst | Zapisz ją składnią Markdown (`\|` i `---`) |
+
+## Bezpieczeństwo i GitHub – poprawki z powtórki L02
+- Noreply = prywatność adresu e-mail (commity są publiczne). 2FA = ochrona przed przejęciem konta.
+- Commit = jeden zapis zmian (kto, kiedy, co). Historia commitów = możliwość śledzenia i cofania.
+- Blok kodu na GitHubie: bez niego Markdown ukrywa tagi <...> i zamienia # w nagłówki. To nie ma związku z modelem AI.
