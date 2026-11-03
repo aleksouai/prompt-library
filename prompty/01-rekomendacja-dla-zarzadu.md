@@ -7,7 +7,6 @@
   ```
 Napisz rekomendację dla zarządu, czy wdrożyć chatbota AI w obsłudze klienta.
 ```
-
   ## Wersja 2
   ```
 <rola> 
@@ -29,7 +28,6 @@ Przygotuj rekomendację: czy wdrożyć chatbota AI w obsłudze klienta.
 <rola>
 Jesteś doświadczonym konsultantem ds. transformacji cyfrowej. Przygotowujesz materiały decyzyjne dla zarządów firm e-commerce. Odbiorcy nie są technikami, ale znają biznes i finanse.
 </rola>
-
 <kontekst>
 Firma: „Zielony Koszyk”, sklep internetowy ze zdrową żywnością, Polska.
 - 40 000 zamówień miesięcznie
@@ -42,20 +40,17 @@ Firma: „Zielony Koszyk”, sklep internetowy ze zdrową żywnością, Polska.
 - Cel zarządu: skrócić czas odpowiedzi bez zatrudniania nowych osób przy wzroście sprzedaży
 - Obawy zarządu: utrata jakości obsługi, ryzyka prawne (RODO)
 </kontekst>
-
 <zadanie>
 Przygotuj rekomendację, czy wdrożyć chatbota AI w obsłudze klienta.
 Porównaj go z co najmniej jedną tańszą alternatywą (np. proaktywne powiadomienia o statusie, samoobsługowy formularz zwrotów). Wybierz rozwiązanie, które najlepiej realizuje cel zarządu.
 Rekomenduj „nie”, jeśli alternatywa daje podobny efekt przy niższym koszcie lub ryzyku.
 </zadanie>
-
 <zasady>
 - Fakty o firmie bierz wyłącznie z kontekstu. Jeśli brakuje liczby potrzebnej do wniosku, przyjmij założenie, oznacz je [ZAŁOŻENIE] i podaj w jednym zdaniu jego źródło lub logikę.
 - Wiedzę ogólną (prawo, praktyka rynkowa, typowe koszty) możesz stosować, ale wskaż przepis lub źródło, jeśli to możliwe.
 - Uwzględnij ryzyka prawne (RODO, AI Act, prawo konsumenckie, w tym wyłączenia prawa odstąpienia dla żywności) i operacyjne.
 - Język konkretny, liczby zamiast przymiotników, bez sformułowań marketingowych.
 </zasady>
-
 <format>
 1. Rekomendacja w jednym zdaniu (tak / nie / warunkowo + warunek)
 2. Uzasadnienie: 3 punkty, każdy z liczbą z kontekstu lub założeniem
