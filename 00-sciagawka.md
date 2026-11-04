@@ -55,3 +55,10 @@ Pułapki:
 - Noreply = prywatność adresu e-mail (commity są publiczne). 2FA = ochrona przed przejęciem konta.
 - Commit = jeden zapis zmian (kto, kiedy, co). Historia commitów = możliwość śledzenia i cofania.
 - Blok kodu na GitHubie: bez niego Markdown ukrywa tagi <...> i zamienia # w nagłówki. To nie ma związku z modelem AI.
+
+## Oznaczenia w promtach
+Tagi XML (<nazwa> … </nazwa>):
+- To nie HTML. Nazwy wymyślam sama, model rozumie je po znaczeniu.
+- Zawsze, gdy wklejam dokument/dane albo piszę szablon do wielokrotnego użytku.
+- Przy krótkich pytaniach zbędne. Przy prostych promptach mogą być nagłówki ##.
+- Zawsze zamykam tag. Nazwy bez polskich znaków i spacji.
