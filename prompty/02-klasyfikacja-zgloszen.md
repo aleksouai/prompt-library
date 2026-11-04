@@ -20,7 +20,6 @@ Wynik podaj w tabeli: Nr | Kategoria | Priorytet | Obsługa | Uzasadnienie.
 7. Czy mogę zmienić adres dostawy? Zamówienie 48907 jeszcze nie wyszło.
 8. Jak długo mam na odesłanie nieotwartej kawy ziarnistej?
 </wiadomosci>
-(wklej prompt)
 ```
 
 ## Wersja 2 – z 3 przykładami
@@ -121,15 +120,15 @@ Tabela: Nr | Kategoria | Priorytet | Obsługa | Uzasadnienie (maks. 10 słów). 
 ## Wyniki: wiadomości-pułapki
 | Wiadomość | Wersja 1 | Wersja 2 | Wersja 3 |
 |---|---|---|---|
-| 3 (alergia) |	wysoki | wysoki	| wysoki |
-| 4 (usunięcie danych) | wysoki | wysoki |	wysoki |
-| 5 (groźba UOKiK) | krytyczny |	krytyczny | wysoki |
+| 3 (alergia) |	wysoki, człowiek | wysoki, człowiek | wysoki, człowiek |
+| 4 (usunięcie danych) | wysoki, człowiek | wysoki, człowiek |	wysoki, człowiek |
+| 5 (groźba UOKiK) | krytyczny, człowiek |	krytyczny, człowiek | wysoki, człowiek |
 
 ## Wnioski
 Wnioski po porównaniu wyniku 2 promptów:
 1.	Konkretne i klarowne opisanie Kategorii  od razu widać, czego dotyczy bez konieczności domysłów (oraz zbędnych opisów)
 2.	Pomimo braku przykładów przy pierwszym prompcie, definicja Priorytetu oraz Rodzaj obsługi zostały tak samo sklasyfikowane. Może to być efekt prostego zadania.
 3.	W przypadku wrażliwego obszaru, jakim jest RODO – w obu przypadkach podana ta sama kwalifikacja. Status ustawiony na „krytyczny”. 
-4.	Ciekawym jest, że w obu wersjach AI potraktowała wiadomości związane z RODO surowiej od wiadomości związanych z ryzykiem alergii.
-5. Po trzecim prompcie: różnice są nieznaczne. Od początku AI dobrze i w ten sam sposób klasyfikuje zdarzenia, a to niezależnie od wytycznych. Różnica jest dopiero przy 3 wersji promptu, gdzie AI zmieniło klasyfikację dla tematów prawnych RODO z „krytyczny” na „wysoki”. Jednak to byłby dobry wniosek przy testach, żeby zastanowić się nad wprowadzeniem wiadomości krytycznych i odróżnieniem ich od priorytetowo wysokich. 
-Uzasadnienie jest też z każdą wersją krótsze (bardziej konkretne).
+4.	Ciekawym jest, że w obu wersjach AI potraktowała wiadomości związane z UOKiK surowiej od wiadomości związanych z ryzykiem alergii.
+5. Po trzecim prompcie: różnice są nieznaczne. Od początku AI dobrze i w ten sam sposób klasyfikuje zdarzenia, a to niezależnie od wytycznych. Różnica jest dopiero przy 3 wersji promptu, gdzie AI zmieniło klasyfikację dla tematów prawnych RODO z „krytyczny” na „wysoki”. Same przykłady (wersja 2) nie ograniczyły skali, mimo że pokazywały tylko niski, średni i wysoki. Dopiero jawne reguły w wersji 3 to zrobiły. Zmiana jednak to byłby dobry wniosek przy testach, żeby zastanowić się nad wprowadzeniem wiadomości krytycznych i odróżnieniem ich od priorytetowo wysokich. 
+Uzasadnienie jest też z każdą wersją krótsze (bardziej konkretne) - W wersji 3 to skutek instrukcji „maks. 10 słów”, nie większej konkretności modelu.
