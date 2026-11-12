@@ -93,13 +93,15 @@ Przeanalizuj ogłoszenie i oceń, jak mój profil pasuje do tego stanowiska.
 | Kryterium | V1 | V2 | V3 |
 |---|---|---|---|
 | Wymagania, których nie ma w ogłoszeniu (liczba) | 0 | 0 | 0 |
-| Punkt 3: zgadywał czy pisał „brak”? | ogłoszenie nie podaje/brak | ogłoszenie nie podaje/brak | brak dla każdej pozycji |
-| Cytaty dosłowne (x/5) | – | 5/5 | 5/5  | 5/5 
+| Punkt 3: zgadywał czy pisał „brak”? | „ogłoszenie nie podaje” / „brak” | „ogłoszenie nie podaje” / „brak” | „brak” przy każdej pozycji |
+| Cytaty dosłowne (x/5) | – | 5/5 | 5/5 |
 | Kompetencje dopisane do profilu bez podstaw (liczba) | 0 | 0 | 0 |
-| Ocena 1–10, którą model dał | 7/10 | 6/10 |  7/10 |
+| Ocena 1–10, którą model dał | 7/10 | 6/10 | 7/10 |
 
 ## Wnioski
-- Prognoza: spodziewałam się, że AI coś doda, albo upiększy, ale był rzetelny. Wskazał luki już od ierwszego promtu i rzetelnie podawał, czego nie może zrobić, bo w ogłoszeniu są braki. → jako, że AI nic nie zmyślił, to zacytował treści ogłoszenia w całości (w znaczeniu wymagania). 
-- przykład zdecydowanie nie był właściwy dla przećwiczenia cytatów. Przykłady nie zawierały wszystkich elementów, co ułatwiło pracę AI, a utrudniło przetestowanie cytatów. Natomiast w wersji 3 przygotował tabelę porównując do cytowanych wymagań rzeczywiste doświadczenie i przypisując je wg swojej oceny. Nie halucynował i dobrze dopasował, pomimo, iż nie "ściśle"
-- nie wskazała rozwiązania luk
+- Prognoza zapisana po teście, nie przed nim. Następnym razem: przed uruchomieniem.
+- Pułapka (brak widełek i formy współpracy) nie zadziałała: żadna wersja nie zgadywała.
+- Reguła „BRAK” w V3 dała jednolity zapis braku przy każdej pozycji. V1 i V2 pisały to różnymi słowami.
+- Cytaty w V2 i V3: 5/5 dosłownych (sprawdzone Ctrl+F).
+- Ocena 1–10 zmieniała się między wersjami (7/6/7) przy tych samych danych. Do decyzji: ocena według kryteriów z cytatami.
 - Pułapka (brak widełek i formy współpracy) nie zadziałała w żadnej wersji. Model nie zgadywał nawet bez reguły „BRAK”. Wartość reguły: jednolity zapis braku, a nie zapobieganie zgadywaniu.
