@@ -102,3 +102,4 @@ Przeanalizuj ogłoszenie i oceń, jak mój profil pasuje do tego stanowiska.
 - Prognoza: spodziewałam się, że AI coś doda, albo upiększy, ale był rzetelny. Wskazał luki już od ierwszego promtu i rzetelnie podawał, czego nie może zrobić, bo w ogłoszeniu są braki. → jako, że AI nic nie zmyślił, to zacytował treści ogłoszenia w całości (w znaczeniu wymagania). 
 - przykład zdecydowanie nie był właściwy dla przećwiczenia cytatów. Przykłady nie zawierały wszystkich elementów, co ułatwiło pracę AI, a utrudniło przetestowanie cytatów. Natomiast w wersji 3 przygotował tabelę porównując do cytowanych wymagań rzeczywiste doświadczenie i przypisując je wg swojej oceny. Nie halucynował i dobrze dopasował, pomimo, iż nie "ściśle"
 - nie wskazała rozwiązania luk
+- Pułapka (brak widełek i formy współpracy) nie zadziałała w żadnej wersji. Model nie zgadywał nawet bez reguły „BRAK”. Wartość reguły: jednolity zapis braku, a nie zapobieganie zgadywaniu.
