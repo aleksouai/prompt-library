@@ -63,3 +63,11 @@ Tagi XML (<nazwa> … </nazwa>):
 - Zawsze, gdy wklejam dokument/dane albo piszę szablon do wielokrotnego użytku.
 - Przy krótkich pytaniach zbędne. Przy prostych promptach mogą być nagłówki ##.
 - Zawsze zamykam tag. Nazwy bez polskich znaków i spacji.
+
+- ## Analiza dokumentów (L03)
+- Dokument na górze promptu, pytanie na końcu. Każdy dokument w osobnym tagu.
+- Ugruntowanie: najpierw dosłowne cytaty (C1, C2...), potem analiza z odwołaniami [C1].
+- Pozwól modelowi napisać „BRAK W OGŁOSZENIU”, inaczej zgaduje, żeby wypełnić format.
+- Weryfikacja: Ctrl+F w źródle, szukaj 5–6 pierwszych słów cytatu.
+- Cytaty zmniejszają liczbę halucynacji, ale ich nie eliminują. Krytyczne dane sprawdzam sama.
+- Repo publiczne: link zamiast pełnego tekstu, bez danych osobowych.
