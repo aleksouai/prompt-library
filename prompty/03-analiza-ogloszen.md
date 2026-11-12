@@ -93,8 +93,8 @@ Przeanalizuj ogłoszenie i oceń, jak mój profil pasuje do tego stanowiska.
 | Kryterium | V1 | V2 | V3 |
 |---|---|---|---|
 | Wymagania, których nie ma w ogłoszeniu (liczba) | 0 | 0 | 0 |
-| Punkt 3: zgadywał czy pisał „brak”? | luki | luki | tabela z brakami i zbliżonymi do cytatów kompetencjami |
-| Cytaty dosłowne (x/5) | – | wszystkie wymagania z ogłoszenia | wszystkie wymagania z ogłoszenia | zrobił tabelę z jasnym wskazaniem braków i wskazaniem części z profilu, które uznał za będące w zakresie cytatu
+| Punkt 3: zgadywał czy pisał „brak”? | ogłoszenie nie podaje/brak | ogłoszenie nie podaje/brak | brak dla każdej pozycji |
+| Cytaty dosłowne (x/5) | – | 5/5 | 5/5  | 5/5 
 | Kompetencje dopisane do profilu bez podstaw (liczba) | 0 | 0 | 0 |
 | Ocena 1–10, którą model dał | 7/10 | 6/10 |  7/10 |
 
