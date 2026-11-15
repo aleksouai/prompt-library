@@ -71,3 +71,16 @@ Tagi XML (<nazwa> … </nazwa>):
 - Weryfikacja: Ctrl+F w źródle, szukaj 5–6 pierwszych słów cytatu.
 - Cytaty zmniejszają liczbę halucynacji, ale ich nie eliminują. Krytyczne dane sprawdzam sama.
 - Repo publiczne: link zamiast pełnego tekstu, bez danych osobowych.
+
+## Case strategiczny – zasady
+- Brief mówi "3 priorytety" = dokładnie 3. Sprawy operacyjne osobno: "Higiena operacyjna (0–3 mies.)".
+- Hipoteza = przyczyna, którą da się sprawdzić danymi. "Udziały spadają" to objaw, nie hipoteza.
+- Każdy priorytet: czasownik + KPI z liczbą i terminem + czego NIE robimy.
+- Przed oddaniem: sprawdź, czy żaden priorytet nie przeczy wybranej strategii, i sprawdź odwołania (P1, P2...).
+- Efekt mianownika: mniej nowych klientów = wyższy % powracających bez zmiany lojalności. Sprawdzaj liczby bezwzględne i kohorty.
+- Odpowiedź dla zarządu: decyzja → powód → co sprawdzę i kiedy. "Nie mam pewności, sprawdzę X" > obrona tezy.
+
+## Prompt analityczny – zasady
+- BRAK = brak faktu w źródłach. [ZAŁOŻENIE] = tylko interpretacja. Nie mieszaj tych reguł w jednym prompcie.
+- Format musi pomieścić wszystko, o co prosi zadanie (np. mocne strony I ryzyka).
+- Przykład numeru źródła w prompcie w tym samym formacie co w dokumentach ([1.4], nie [1-4]).
