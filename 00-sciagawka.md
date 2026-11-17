@@ -84,3 +84,11 @@ Tagi XML (<nazwa> … </nazwa>):
 - BRAK = brak faktu w źródłach. [ZAŁOŻENIE] = tylko interpretacja. Nie mieszaj tych reguł w jednym prompcie.
 - Format musi pomieścić wszystko, o co prosi zadanie (np. mocne strony I ryzyka).
 - Przykład numeru źródła w prompcie w tym samym formacie co w dokumentach ([1.4], nie [1-4]).
+
+## Projekt w Claude (L04)
+- Instrukcja = JAK pracować (zasady, format). Wiedza = CO jest prawdą (dane). Liczb nie wpisuję do instrukcji.
+- Każdy plik wiedzy: tytuł z numerem (ZK-01), metryczka (źródło, data, status), numerowane punkty [2.1].
+- Status FAKT / PROPOZYCJA: inaczej asystent przedstawi propozycję jako decyzję.
+- RAG: przy dużej wiedzy Claude wyszukuje fragmenty, nie czyta całości. Jasne tytuły = trafniejsze wyszukiwanie.
+- Test projektu: prognoza przed testem, każdy test w nowym czacie, pułapki: brak danych, oświadczenie zdrowotne, decyzja.
+- Nowy projekt do testów, nigdy AI LEARNING (instrukcja mentora zafałszowuje wynik).
