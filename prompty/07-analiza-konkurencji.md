@@ -38,7 +38,7 @@ Pod tabelą: lista SPRZECZNE i NIEAKTUALNE z wyjaśnieniem w 1 zdaniu.
 ZK-05 nie było w wiedzy projektu. Model użył tylko ZK-01 i podał nieaktualne dane jako FAKT. Status FAKT jest tak dobry, jak zestaw plików.
 
 ## Prognoza a wynik
-- Prognoza: niemożliwość przewidzenia prognozy ze względu na źle ustawioną lekcję.
+- - Prognoza: nieważna, bo powstała przed poznaniem promptów (błąd kolejności w lekcji).
 - Wynik: V1 5/8, V2 8/8
 
 ## Do V3
@@ -46,5 +46,6 @@ ZK-05 nie było w wiedzy projektu. Model użył tylko ZK-01 i podał nieaktualne
 - Oznacz oświadczenia zdrowotne konkurentów jako ryzyko prawne.
 
 ## Wnioski
-1. …
-2. …
+1. Bez pliku ZK-05 w projekcie model wziął dane z innych plików i podał nieaktualną liczbę miast jako FAKT. Status FAKT jest tak dobry jak zestaw plików, dlatego przed testem sprawdzam pytaniem kontrolnym, czy model widzi nowy plik.
+2. Jedna komórka tabeli może łączyć fakt i założenie. Sprawdzam, którego fragmentu dotyczy oznaczenie i czy numer źródła potwierdza treść. Przykład: hasło reklamowe [5.12] nie jest opisem grupy docelowej.
+3. Reguły dowodowe nie zmieniły tego, co model znalazł, tylko czy rozstrzygnął (V1 5/8, V2 8/8). Bez dat i statusów decyzję o sprzecznych danych zostawia mnie.
