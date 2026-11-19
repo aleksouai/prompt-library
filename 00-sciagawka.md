@@ -92,3 +92,35 @@ Tagi XML (<nazwa> … </nazwa>):
 - RAG: przy dużej wiedzy Claude wyszukuje fragmenty, nie czyta całości. Jasne tytuły = trafniejsze wyszukiwanie.
 - Test projektu: prognoza przed testem, każdy test w nowym czacie, pułapki: brak danych, oświadczenie zdrowotne, decyzja.
 - Nowy projekt do testów, nigdy AI LEARNING (instrukcja mentora zafałszowuje wynik).
+
+## L05 – Karta marki dla AI
+
+### Jak zbudować kartę marki, której AI użyje
+- Głos marki = reguły do sprawdzenia tak/nie, nie przymiotniki. Źle: "ciepły, ekspercki". Dobrze: "każde twierdzenie o produkcie ma liczbę, certyfikat albo numer źródła".
+- Każda reguła ma numer, np. [M2.1]. Bez numerów nie da się oceniać ani cytować.
+- Zawsze: czym marka NIE jest + lista słów zakazanych (sprawdzasz Ctrl+F).
+- Mapa tonu wg kanału: formalność, humor, długość W SŁOWACH, zwrot. Reklamacja ≠ newsletter ≠ reklama.
+- Pary przykładów ✅/❌: ta sama wiadomość w dwóch wersjach + numer łamanej reguły. Model uczy się głosu z przykładów bardziej niż z opisu.
+- W przykładzie zamiast zmyślonych liczb pola {liczba}, {czas}. Uzupełnia człowiek przed publikacją.
+- Persony tylko ze źródeł, reszta BRAK, status HIPOTEZA.
+
+### Gdzie co trafia
+- Karta = WIEDZA projektu (zmienia się z nowymi przykładami).
+- Instrukcja = tylko polecenie "pisz według ZK-04" + reguła pierwszeństwa.
+- Reguła pierwszeństwa: zasady prawne [K12] zdrowie, [K13] RODO > głos marki. Zapisana jawnie.
+- Gdy wiedza projektu urośnie: 2–3 najważniejsze zakazy powiel w instrukcji jako bezpiecznik.
+
+### Test przed/po
+1. Test "przed" bez karty: każdy prompt w NOWYM czacie.
+2. Prognoza przed testem: co zmieni dana różnica i dlaczego.
+3. Wgranie karty = jedyna zmiana.
+4. Te same prompty, nowe czaty.
+5. Ocena: liczy AI w osobnym czacie poza projektem (załącznik: karta + prompt z kryteriami); ja sprawdzam 1 tekst ręcznie (licznik słów w Wordzie, Ctrl+F na "!" i słowa zakazane).
+6. Do oceny wklejam CAŁĄ odpowiedź asystenta, nie tylko gotowy tekst – inaczej AI nie widzi np. uzasadnienia odmowy.
+- "Nie dotyczy" liczone jako "tak" zawyża wynik – zaznaczać osobno.
+
+### Moje błędy z L05 (nie powtarzać)
+- Przykład w karcie zawierał oświadczenie zdrowotne ("erytrytol nie podnosi glukozy") → reguła marki łamała [K12]. Przykład sprzeczny z instrukcją zwykle wygrywa (few-shot, L02).
+- Oceniać według własnych reguł, nie wrażenia: wersja asystenta w [M8] była lepsza od mojej ✅.
+- KPI efektu, nie aktywności: "100% przeszkolonych" to aktywność; "odsetek tekstów bez poprawek z X% do Y%" to efekt. Zawsze najpierw pomiar wyjściowy.
+- Odpowiadam własnymi słowami, nie wklejam tekstu asystenta.
